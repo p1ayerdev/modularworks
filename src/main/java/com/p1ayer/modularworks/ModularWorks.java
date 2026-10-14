@@ -1,5 +1,7 @@
 package com.p1ayer.modularworks;
 
+import com.p1ayer.creativetab.modulartab;
+import com.p1ayer.modularblocks.ModularBlocks;
 import com.p1ayer.modularitems.ModularItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +17,8 @@ public class ModularWorks implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModularItems.registerModItems();
+		ModularBlocks.registerModBlocks();
+		modulartab.registerCreativeModeTabs();
 	}
 
 	public static Identifier id(String path) {

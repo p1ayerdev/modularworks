@@ -1,3 +1,8 @@
 {
-  "item.modularworks.reinforced_handle": "Reinforced Handle"
+  "creativemodetab.modularworks.modularworks": "Modular Works",
+  "item.modularworks.reinforced_handle": "Reinforced Handle",
+  "item.modularworks.tool_handle": "Tool Handle",
+  "block.modularworks.titanium_ore": "Titanium Ore",
+  "item.modularworks.titanium_pickaxe_head": "Titanium Pickaxe Head",
+  "item.modularworks.diamond_pickaxe_head": "Diamond Pickaxe Head"
 }
